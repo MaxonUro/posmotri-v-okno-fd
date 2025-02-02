@@ -17,6 +17,10 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color:#1b1919;
+  margin:133px 30px;
+  display: flex;
+  align-items: center;
+  margin: auto;
 }
 
 h1,
@@ -51,15 +55,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-/*Начало моей работы ------------------------------*/
-
-.page{
-  margin:133px 30px;
-  display: flex;
-  align-items: center;
-  margin: auto;
-}
-
 .content{
   display: flex;
   column-gap: 30px;
@@ -68,14 +63,14 @@ ol {
 .result{
   display: flex;
   flex-direction: column;
-  width: 711px;
-	height: 534px;
+  max-width: 711px;
+	max-height: 534px;
   padding-top: 78px;
 }
 
 .result__video-container{
-  height: 399px;
-  width: 711px;
+  max-height: 399px;
+  max-width: 711px;
   padding-bottom: 16px;
   position: relative;
 }
