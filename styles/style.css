@@ -235,6 +235,7 @@ ol {
   display: flex;
   flex-direction: column;
   width: 399px;
+  height: 298px;
 }
 
 .content__list-container {
@@ -266,6 +267,7 @@ ol {
 }
 
 .content__card-link {
+  display:block;
   text-decoration: none;
   color: #ffffff;
 }
@@ -274,8 +276,11 @@ ol {
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  text-overflow: ellipsis;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  overflow: hidden;
+}
 }
 
 .content__video-card-description {
