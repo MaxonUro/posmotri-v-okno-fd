@@ -117,7 +117,7 @@ ol {
   font-weight: 400;
   line-height: 21.6px;
   text-align: left;
-  color: #ffffffb2;
+  color:rgba(255, 255, 255, 0.7);
   background-color: transparent;
   inline-size: 225px;
   border-top: 1px solid #fff;
@@ -128,11 +128,6 @@ ol {
 
 .search-form__textfield:focus {
   outline: none;
-}
-
-.search-form__textfield:focus-visible {
-  outline: 1px solid #fff;
-  outline-offset: 2px;
 }
 
 .search-form__textfield:hover {
@@ -176,7 +171,7 @@ ol {
   margin: 1px;
 }
 
-.search-form__label-text:hover {
+ .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 4px;
   cursor: pointer;
@@ -240,7 +235,6 @@ ol {
   display: flex;
   flex-direction: column;
   width: 399px;
-  height: 534px;
 }
 
 .content__list-container {
