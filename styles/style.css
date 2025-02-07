@@ -290,11 +290,11 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 7.2px;
-  padding-top: 4px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   line-clamp: 4;
+  overflow: hidden;
 }
 
 .content__video-card-description-container {
